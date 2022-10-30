@@ -1,5 +1,5 @@
 {
-  "name": "@metaplex-foundation/js",
+  "name": "tearing-spaces-js",
   "version": "0.17.4",
   "sideEffects": false,
   "module": "dist/esm/index.mjs",

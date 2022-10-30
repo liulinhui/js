@@ -17,8 +17,8 @@ export type IdentitySigner = {
 export const isSigner = (input: any): input is Signer => {
   return (
     typeof input === 'object' &&
-    'publicKey' in input &&
-    ('secretKey' in input || 'signTransaction' in input)
+    'publicKey' in input
+//    ('secretKey' in input || 'signTransaction' in input)
   );
 };
 
